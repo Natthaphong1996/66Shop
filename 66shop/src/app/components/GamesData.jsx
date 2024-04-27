@@ -1,7 +1,7 @@
 "use client"
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-import jsonData from './mygames.json'; // นำเข้าข้อมูล JSON จากไฟล์
+import jsonData from './mygames.json'; // นำเข้าข้อมูล JSON  จากไฟล์
 
 function GamesData() {
     const [game, setgame] = useState([]);
