@@ -47,8 +47,12 @@ function PokeData() {
                                         <br />
                                     </div>
                                 )}
-                                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                                <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
                                     สั่งซื้อ
+                                </button>
+
+                                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-2">
+                                    รายะลเอียด
                                 </button>
                             </div>
                         </div>
