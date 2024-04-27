@@ -9,305 +9,219 @@
             "discount": 25
         },
         {
-            "appid": 730,
-            "name": "Counter-Strike: Global Offensive",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/730/header.jpg",
-            "price": 0,
-            "discount": 0
-        },
-        {
-            "appid": 578080,
-            "name": "PLAYERUNKNOWN'S BATTLEGROUNDS",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/578080/header.jpg",
-            "price": 439,
-            "discount": 0
-        },
-        {
-            "appid": 359550,
-            "name": "Tom Clancy's Rainbow Six Siege",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/359550/header.jpg",
-            "price": 499,
-            "discount": 0
-        },
-        {
-            "appid": 107410,
-            "name": "Arma 3",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/107410/header.jpg",
-            "price": 699,
-            "discount": 0
-        },
-        {
-            "appid": 1172470,
-            "name": "Apex Legends",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/1172470/header.jpg",
-            "price": 0,
-            "discount": 0
-        },
-        {
-            "appid": 440,
-            "name": "Team Fortress 2",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/440/header.jpg",
-            "price": 0,
+            "appid": 2195250,
+            "name": "EA SPORTS FC™ 24",
+            "img": "https://cdn.akamai.steamstatic.com/steam/apps/2195250/header.jpg?t=1713799333",
+            "payment":"",
+            "price": 1899,
             "discount": 0
         },
         {
             "appid": 1091500,
-            "name": "Phasmophobia",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/1091500/header.jpg",
-            "price": 209,
+            "name": "Cyberpunk 2077",
+            "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg?t=1706698946",
+            "payment":"",
+            "price": 1799,
+            "discount": 0
+        },
+        {
+            "appid": 934700,
+            "name": "Dead Island 2",
+            "img": "https://cdn.akamai.steamstatic.com/steam/apps/934700/header.jpg?t=1713802874",
+            "payment":"",
+            "price": 1423,
+            "discount": 50
+        },
+        {
+            "appid": 934700,
+            "name": "No Rest for the Wicked",
+            "img": "https://cdn.akamai.steamstatic.com/steam/apps/1371980/header.jpg?t=1713987346",
+            "payment":"",
+            "price": 770,
             "discount": 10
         },
         {
-            "appid": 377160,
-            "name": "Fallout 4",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/377160/header.jpg",
-            "price": 249,
+            "appid": 1778820,
+            "name": "TEKKEN 8",
+            "img": "https://cdn.akamai.steamstatic.com/steam/apps/1778820/header.jpg?t=1714140367",
+            "payment":"",
+            "price": 1990,
+            "discount": 30
+        },
+        {
+            "appid": 2519060,
+            "name": "Call of Duty®: Modern Warfare® III",
+            "img": "https://cdn.akamai.steamstatic.com/steam/apps/2519060/header.jpg?t=1713202728",
+            "payment":"",
+            "price": 2322,
+            "discount": 35
+        },
+        {
+            "appid": 814380,
+            "name": "Sekiro™: Shadows Die Twice - GOTY Edition",
+            "img": "https://cdn.akamai.steamstatic.com/steam/apps/814380/header.jpg?t=1678991267",
+            "payment":"",
+            "price": 2099,
+            "discount": 50
+        },
+        {
+            "appid": 359550,
+            "name": "Tom Clancy's Rainbow Six® Siege",
+            "img": "https://cdn.akamai.steamstatic.com/steam/apps/359550/header.jpg?t=1713914116",
+            "payment":"",
+            "price": 569,
             "discount": 0
         },
         {
-            "appid": 552520,
-            "name": "Wallpaper Engine",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/552520/header.jpg",
-            "price": 149,
+            "appid": 1245620,
+            "name": "ELDEN RING",
+            "img": "https://cdn.akamai.steamstatic.com/steam/apps/1245620/header.jpg?t=1710261394",
+            "payment":"",
+            "price": 1790,
             "discount": 0
         },
         {
-            "appid": 1097150,
-            "name": "Terraria",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/1097150/header.jpg",
-            "price": 259,
+            "appid": 1172620,
+            "name": "Sea of Thieves: 2024 Edition",
+            "img": "https://cdn.akamai.steamstatic.com/steam/apps/1172620/header.jpg?t=1713978960",
+            "payment":"",
+            "price": 599,
+            "discount": 50
+        },
+        {
+            "appid": 962130,
+            "name": "Grounded",
+            "img": "https://cdn.akamai.steamstatic.com/steam/apps/962130/header.jpg?t=1713459817",
+            "payment":"",
+            "price": 1249,
+            "discount": 40
+        },
+        {
+            "appid": 892970,
+            "name": "Valheim",
+            "img": "https://steamcdn-a.akamaihd.net/steam/apps/892970/header.jpg",
+            "price": 249.00,
             "discount": 0
         },
         {
-            "appid": 413150,
-            "name": "Stardew Valley",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/413150/header.jpg",
-            "price": 299,
+            "appid": 1426210,
+            "name": "It Takes Two",
+            "img": "https://steamcdn-a.akamaihd.net/steam/apps/1426210/header.jpg",
+            "price": 699.00,
             "discount": 0
         },
         {
-            "appid": 4000,
-            "name": "Garry's Mod",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/4000/header.jpg",
-            "price": 239,
+            "appid": 1091500,
+            "name": "Loop Hero",
+            "img": "https://cdn.akamai.steamstatic.com/steam/apps/1282730/header.jpg?t=1711536416",
+            "price": 315.00,
             "discount": 0
         },
         {
-            "appid": 294100,
-            "name": "RimWorld",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/294100/header.jpg",
-            "price": 529,
+            "appid": 680420,
+            "name": "Outriders",
+            "img": "https://steamcdn-a.akamaihd.net/steam/apps/680420/header.jpg",
+            "price": 1249.00,
             "discount": 0
         },
         {
-            "appid": 12120,
-            "name": "Grand Theft Auto: San Andreas",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/12120/header.jpg",
-            "price": 209,
+            "appid": 1644960,
+            "name": "Deathloop",
+            "img": "https://steamcdn-a.akamaihd.net/steam/apps/1644960/header.jpg",
+            "price": 999.00,
             "discount": 0
         },
         {
-            "appid": 221100,
-            "name": "DayZ",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/221100/header.jpg",
-            "price": 299,
+            "appid": 924970,
+            "name": "Back 4 Blood",
+            "img": "https://steamcdn-a.akamaihd.net/steam/apps/924970/header.jpg",
+            "price": 999.00,
             "discount": 0
         },
         {
-            "appid": 70,
-            "name": "Half-Life",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/70/header.jpg",
-            "price": 0,
+            "appid": 1063730,
+            "name": "New World",
+            "img": "https://steamcdn-a.akamaihd.net/steam/apps/1063730/header.jpg",
+            "price": 549.00,
             "discount": 0
         },
         {
-            "appid": 433850,
-            "name": "Depth",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/433850/header.jpg",
-            "price": 219,
+            "appid": 1552210,
+            "name": "Forza Horizon 5",
+            "img": "https://steamcdn-a.akamaihd.net/steam/apps/1552210/header.jpg",
+            "price": 1899.00,
+            "discount": 50
+        },
+        {
+            "appid": 1144400,
+            "name": "Chicory: A Colorful Tale",
+            "img": "https://steamcdn-a.akamaihd.net/steam/apps/1144400/header.jpg",
+            "price": 439.00,
             "discount": 0
         },
         {
-            "appid": 976730,
-            "name": "Among Us",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/976730/header.jpg",
-            "price": 0,
+            "appid": 1196590,
+            "name": "Resident Evil Village",
+            "img": "https://steamcdn-a.akamaihd.net/steam/apps/1196590/header.jpg",
+            "price": 1209.00,
+            "discount": 60
+        },
+        {
+            "appid": 848450,
+            "name": "Subnautica: Below Zero",
+            "img": "https://steamcdn-a.akamaihd.net/steam/apps/848450/header.jpg",
+            "price": 279.00,
             "discount": 0
         },
         {
-            "appid": 550,
-            "name": "Left 4 Dead 2",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/550/header.jpg",
-            "price": 0,
+            "appid": 306130,
+            "name": "Halo Infinite",
+            "img": "https://steamcdn-a.akamaihd.net/steam/apps/306130/header.jpg",
+            "price": 999.00,
             "discount": 0
         },
         {
-            "appid": 1085660,
-            "name": "Destiny 2",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/1085660/header.jpg",
-            "price": 0,
+            "appid": 979690,
+            "name": "The Ascent",
+            "img": "https://steamcdn-a.akamaihd.net/steam/apps/979690/header.jpg",
+            "price": 899.00,
+            "discount": 70
+        },
+        {
+            "appid": 1299980,
+            "name": "Kena: Bridge of Spirits",
+            "img": "https://steamcdn-a.akamaihd.net/steam/apps/1299980/header.jpg",
+            "price": 1049.00,
             "discount": 0
         },
         {
-            "appid": 400,
-            "name": "Portal",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/400/header.jpg",
-            "price": 0,
+            "appid": 1466860,
+            "name": "Age of Empires IV",
+            "img": "https://steamcdn-a.akamaihd.net/steam/apps/1466860/header.jpg",
+            "price": 699.00,
+            "discount": 33
+        },
+        {
+            "appid": 1333270,
+            "name": "Hitman 3",
+            "img": "https://steamcdn-a.akamaihd.net/steam/apps/1333270/header.jpg",
+            "price": 1249.00,
             "discount": 0
         },
         {
-            "appid": 238960,
-            "name": "Path of Exile",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/238960/header.jpg",
-            "price": 0,
+            "appid": 1124300,
+            "name": "F1 2021",
+            "img": "https://steamcdn-a.akamaihd.net/steam/apps/1124300/header.jpg",
+            "price": 799.00,
             "discount": 0
         },
         {
-            "appid": 945360,
-            "name": "Phantom Abyss",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/945360/header.jpg",
-            "price": 219,
-            "discount": 0
-        },
-        {
-            "appid": 221100,
-            "name": "DayZ",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/221100/header.jpg",
-            "price": 299,
-            "discount": 0
-        },
-        {
-            "appid": 242760,
-            "name": "The Forest",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/242760/header.jpg",
-            "price": 179,
-            "discount": 0
-        },
-        {
-            "appid": 50,
-            "name": "Half-Life: Opposing Force",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/50/header.jpg",
-            "price": 79,
-            "discount": 0
-        },
-        {
-            "appid": 294100,
-            "name": "RimWorld",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/294100/header.jpg",
-            "price": 529,
-            "discount": 0
-        },
-        {
-            "appid": 440,
-            "name": "Team Fortress 2",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/440/header.jpg",
-            "price": 0,
-            "discount": 0
-        },
-        {
-            "appid": 60,
-            "name": "Ricochet",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/60/header.jpg",
-            "price": 0,
-            "discount": 0
-        },
-        {
-            "appid": 50,
-            "name": "Half-Life: Opposing Force",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/50/header.jpg",
-            "price": 79,
-            "discount": 0
-        },
-        {
-            "appid": 1200,
-            "name": "Red Orchestra: Ostfront 41-45",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/1200/header.jpg",
-            "price": 0,
-            "discount": 0
-        },
-        {
-            "appid": 381210,
-            "name": "Dead by Daylight",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/381210/header.jpg",
-            "price": 349,
-            "discount": 0
-        },
-        {
-            "appid": 578080,
-            "name": "PLAYERUNKNOWN'S BATTLEGROUNDS",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/578080/header.jpg",
-            "price": 439,
-            "discount": 0
-        },
-        {
-            "appid": 413150,
-            "name": "Stardew Valley",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/413150/header.jpg",
-            "price": 299,
-            "discount": 0
-        },
-        {
-            "appid": 1085660,
-            "name": "Destiny 2",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/1085660/header.jpg",
-            "price": 0,
-            "discount": 0
-        },
-        {
-            "appid": 945360,
-            "name": "Phantom Abyss",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/945360/header.jpg",
-            "price": 219,
-            "discount": 0
-        },
-        {
-            "appid": 294100,
-            "name": "RimWorld",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/294100/header.jpg",
-            "price": 529,
-            "discount": 0
-        },
-        {
-            "appid": 440,
-            "name": "Team Fortress 2",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/440/header.jpg",
-            "price": 0,
-            "discount": 0
-        },
-        {
-            "appid": 221100,
-            "name": "DayZ",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/221100/header.jpg",
-            "price": 299,
-            "discount": 0
-        },
-        {
-            "appid": 413150,
-            "name": "Stardew Valley",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/413150/header.jpg",
-            "price": 299,
-            "discount": 0
-        },
-        {
-            "appid": 221100,
-            "name": "DayZ",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/221100/header.jpg",
-            "price": 299,
-            "discount": 0
-        },
-        {
-            "appid": 271590,
-            "name": "Grand Theft Auto V",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/271590/header.jpg",
-            "price": 729,
-            "discount": 0
-        },
-        {
-            "appid": 413150,
-            "name": "Stardew Valley",
-            "img": "https://steamcdn-a.akamaihd.net/steam/apps/413150/header.jpg",
-            "price": 299,
+            "appid": 740130,
+            "name": "Tales of Arise",
+            "img": "https://steamcdn-a.akamaihd.net/steam/apps/740130/header.jpg",
+            "price": 1599.00,
             "discount": 0
         }
+        
     ]
 }

@@ -18,14 +18,18 @@ function GamesData() {
     }, []);
 
     return (
-        <div className='container flex justify-center text-center mx-auto'>
+        <div className='container text-center mx-auto'>
+            <div className='text-center mx-auto text-6xl m-5 rounded-md bg-white font-extrabold antialiased' style={{ display: 'inline-block', padding: '10px' }}>
+                30 เกมที่กำลังเป็นกระแสนิยมในตอนนี้บน STEAM
+            </div>
+
             {loading ? (
                 <p>Loading...</p>
             ) : (
                 <div className='grid grid-cols-5 content-center'>
                     {game.map((val, index) => (
                         //<Link key={val.name} href={`/pokeinfo/${index + 1}`}>
-                        <div key={index} className='flex flex-col justify-center items-center shadow-md transition cursor-pointer hover:shadow-lg m-2 rounded-md'>
+                        <div key={index} className='flex flex-col justify-center items-center shadow-md transition cursor-pointer hover:shadow-lg m-2 rounded-md bg-white'>
                             <div className='m-2 line-clamp-1'>
                                 <h4>{val.name}</h4>
                             </div>
@@ -39,7 +43,7 @@ function GamesData() {
                                 {val.discount > 0 ? (
                                     <div>
                                         <div><price>ราคาเต็ม {val.price} บาท</price></div>
-                                        <div><discount>ลด {val.discount} % เหลือ {val.price - ((val.price / 100) * val.discount)} บาท</discount></div>
+                                        <div><discount>ลด {val.discount} % เหลือ {(val.price - ((val.price / 100) * val.discount)).toFixed(2)} บาท</discount></div>
                                     </div>
                                 ) : (
                                     <div>
