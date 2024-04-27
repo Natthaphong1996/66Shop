@@ -1,17 +1,18 @@
 "use client"
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 import Image from 'next/image';
-import jsonData from './mygames.json'; // นำเข้าข้อมูล JSON  จากไฟล์
+import jsonData from './mygames.json'; // นำเข้าข้อมูล JSON จากไฟล์
 
-function GamesData() {
-    const [game, setgame] = useState([]);
+function PokeData() {
+    const [poke, setPoke] = useState([]);
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
         setLoading(true);
         // เรียกใช้ setTimeout เพื่อจำลองการโหลดข้อมูลจากไฟล์ JSON
         setTimeout(() => {
-            setgame(jsonData.games);
+            setPoke(jsonData.games);
             setLoading(false);
         }, 200);
     }, []);
@@ -22,8 +23,9 @@ function GamesData() {
                 <p>Loading...</p>
             ) : (
                 <div className='grid grid-cols-5 content-center'>
-                    {game.map((val, index) => (
-                        <div className='flex flex-col justify-center items-center shadow-md transition cursor-pointer hover:shadow-lg m-2 rounded-md'>
+                    {poke.map((val, index) => (
+                        //<Link key={val.name} href={`/pokeinfo/${index + 1}`}>
+                        <div key={index} className='flex flex-col justify-center items-center shadow-md transition cursor-pointer hover:shadow-lg m-2 rounded-md'>
                             <div className='m-2 line-clamp-1'>
                                 <h4>{val.name}</h4>
                             </div>
@@ -45,20 +47,12 @@ function GamesData() {
                                         <br />
                                     </div>
                                 )}
-                                <script async
-                                    src="https://js.stripe.com/v3/buy-button.js">
-                                </script>
-
-                                <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+                                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                                     สั่งซื้อ
-                                </button>
-
-                                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded  ml-2">
-                                    รายละเอียด
                                 </button>
                             </div>
                         </div>
-
+                        //</Link>
                     ))}
                 </div>
             )}
@@ -66,4 +60,4 @@ function GamesData() {
     );
 }
 
-export default GamesData;
+export default PokeData;
