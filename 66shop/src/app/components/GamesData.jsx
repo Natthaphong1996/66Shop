@@ -1,18 +1,17 @@
 "use client"
 import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
 import jsonData from './mygames.json'; // นำเข้าข้อมูล JSON จากไฟล์
 
-function PokeData() {
-    const [poke, setPoke] = useState([]);
+function GamesData() {
+    const [game, setgame] = useState([]);
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
         setLoading(true);
         // เรียกใช้ setTimeout เพื่อจำลองการโหลดข้อมูลจากไฟล์ JSON
         setTimeout(() => {
-            setPoke(jsonData.games);
+            setgame(jsonData.games);
             setLoading(false);
         }, 200);
     }, []);
@@ -23,9 +22,8 @@ function PokeData() {
                 <p>Loading...</p>
             ) : (
                 <div className='grid grid-cols-5 content-center'>
-                    {poke.map((val, index) => (
-                        //<Link key={val.name} href={`/pokeinfo/${index + 1}`}>
-                            <div key={index} className='flex flex-col justify-center items-center shadow-md transition cursor-pointer hover:shadow-lg m-2 rounded-md '>
+                    {game.map((val, index) => (
+                            <div className='flex flex-col justify-center items-center shadow-md transition cursor-pointer hover:shadow-lg m-2 rounded-md '>
                                 <div className='m-2 line-clamp-1'>
                                     <h4>{val.name}</h4>
                                 </div>
@@ -52,7 +50,6 @@ function PokeData() {
                                     )}
                                 </div>
                             </div>
-                        //</Link>
                     ))}
                 </div>
             )}
@@ -60,4 +57,4 @@ function PokeData() {
     );
 }
 
-export default PokeData;
+export default GamesData;
